@@ -20,6 +20,8 @@ body {
 	color: rgb(52, 51, 51);
 	font-weight: normal;
 	font-family: "PT Sans"
+	padding: 0;
+	margin: 0;
 }
 
 .clearfix::after {
@@ -45,10 +47,9 @@ body {
 }
 
 .main-background {
-	width: 458px;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: YellowGreen;
+	width: 1200px;
+	text-align: center;
+	background-image: url(img/background.jpg);
 }
 
 .about-sedona {
@@ -64,15 +65,15 @@ body {
 
 .features-item {
 	width: 400px;
-	margin-right: -4px;
-	display: inline-block;
+	float: left;
+	outline: 1px solid red;
 	background-color: SlateBlue;
 }
 
 .features-item-background {
 	width: 800px;
-	margin-right: -3px;
-	display: inline-block;
+	height: 256px;
+	float: left;
 }
 
 .advantage-item {
@@ -114,10 +115,6 @@ body {
 	background-color: LightSalmon;
 }
 
-/*.popup {
-	visibility: hidden;
-}*/
-
 .search-options {
 	padding-left: 73px;
 	float: left;
@@ -141,6 +138,18 @@ body {
 	display: inline-block;
 	padding-left: 73px;
 	background-color: yellow;
+}
+
+.results {
+	outline: 1px solid red;
+}
+
+.main-footer {
+	outline: 1px solid red;
+}
+
+.search-options {
+	outline: 1px solid red;
 }
 
 .results-about {
