@@ -207,13 +207,14 @@ ul {
 
 .popup form {
 	padding: 55px;
-	margin-bottom: 77px;
+	margin-bottom: 80px;
 	font-size: 0px;
 }
 
 .sub-input {
+	width: 96px;
 	display: inline-block;
-  margin-bottom: 37px;
+  margin-bottom: 36px;
   font-size: 14px;
   font-weight: bold;
   text-align: left;
@@ -221,6 +222,10 @@ ul {
 
 .sub-input-right {
 	margin-left: 50px;
+}
+
+.sub-input-left {
+	margin-right: 20px;
 }
 
 .style-input {
@@ -245,28 +250,51 @@ ul {
 .people-wrapper {
 	display: inline-block;
 	position: relative;
+	width: 90px;
 }
 
 .small-input {
-	width: 114px;
+	width: 50px;
+	margin-left: 25px;
 }
 
 .date-btn {
 	position: absolute;
 	right: 0px;
-	top: 8px;
+	font-size: 0px;
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	border: 0px;
+	background: #f2f2f2;
+	background-image: url(../img/date-logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .btn-less {
 	position: absolute;
-	left: 15px;
-	top: 8px;
+	left: -5px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #a9a9a9;
+	width: 30px;
+	height: 40px;
+	cursor: pointer;
+	border: 0px;
+	background: #f2f2f2;
 }
 
 .btn-more {
 	position: absolute;
-	right: 0px;
-	top: 8px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #a9a9a9;
+	width: 30px;
+	height: 40px;
+	cursor: pointer;
+	border: 0px;
+	background: #f2f2f2;
 }
 
 .btn-input {
@@ -290,6 +318,7 @@ ul {
 
 .container {
 	position: relative;
+	box-shadow: 0 0 25px 10px #dedede;
 }
 
 .main-footer {
@@ -298,6 +327,10 @@ ul {
 	opacity: 0.9;
 	background: white;
 	bottom: 0px;
+}
+
+.main-footer-down {
+	position: static;
 }
 
 .footer-tag {
@@ -363,6 +396,41 @@ ul {
 .search-options {
 	padding-left: 73px;
 	float: left;
+	width: 182px;
+}
+
+.search-options h2 {
+	margin-top: 20px;
+	margin-bottom: 24px;
+	font-size: 16px;
+}
+
+.search-options p {
+  margin-bottom: 25px;
+}
+
+.price-options {
+	float: right;
+	margin-right: 72px;
+	text-align: center;
+  color: #ffffff;
+}
+
+.price-options h2 {
+	margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.search-panel {
+	background-image: url(../img/hotel-page-background.jpg);
+	min-height: 215px;
+	margin-bottom: 30px;
+}
+
+.sorting {
+	margin-bottom: 30px;
 }
 
 .sorting h2{
@@ -387,10 +455,6 @@ ul {
 
 .results {
 	clear: both;
-	outline: 1px solid red;
-}
-
-.search-options {
 	outline: 1px solid red;
 }
 
